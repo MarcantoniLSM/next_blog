@@ -1,0 +1,6 @@
+.cards{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    border: red solid 1px;
+}

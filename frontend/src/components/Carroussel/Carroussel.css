@@ -1,0 +1,11 @@
+.carroussel{
+    width: 98%;
+    height: 19.5%;
+    background-color: #EFF4FA;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

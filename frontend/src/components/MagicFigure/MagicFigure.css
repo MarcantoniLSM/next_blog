@@ -1,0 +1,48 @@
+.magicFigure{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle1 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(to right, hsl(247, 59%, 67%, 67%), hsl(235, 59%, 92%, 10%));
+    border-radius: 50%;
+  }
+.circle2 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background: linear-gradient(to left, hsl(269, 70%, 82%, 73%), hsl(235, 59%, 92%, 14%));
+    border-radius: 50%;
+    transform: rotate(20deg);
+  }
+.circle3 {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    background: linear-gradient(to left, hsl(271, 69%, 74%, 19%), hsl(235, 59%, 92%, 7%));
+    border-radius: 50%;
+    transform: rotate(75deg);
+  }
+.circle4 {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    background: linear-gradient(to top, hsl(257, 59%, 66%, 43%),hsl(235, 59%, 92%, 20%));
+    border-radius: 50%;
+    transform: rotate(45deg);
+  }
+.circle5 {
+    position: absolute;
+    width: 55%;
+    height: 40%;
+    background: linear-gradient(to right, hsl(246, 61%, 70%, 13%),hsl(235, 59%, 92%, 43%));
+    border-radius: 50%;
+    transform: rotate(18deg);
+  }

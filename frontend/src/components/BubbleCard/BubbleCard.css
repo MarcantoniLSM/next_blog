@@ -1,0 +1,9 @@
+.bubbleCard{
+    border-radius: 10px;
+    background-color: #F6F9FE;
+    padding: 0.3em 0.9em;
+    font-size: small;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 1em;
+}

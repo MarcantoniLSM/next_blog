@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  background-color: #ECF3FB;
+  height: 100vh;
+  width: 100vw;
+    border: 10px solid transparent; /* Defina a largura e o estilo da borda */
+    border-image: linear-gradient(to right, #C9BBFC, #FBFBFE, #C9BBFC, #FBFBFE, #C9BBFC); /* Para navegadores que suportam border-image */
+    border-image-slice: 1; /* Para navegadores que suportam border-image */
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+}
