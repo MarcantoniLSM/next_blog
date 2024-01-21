@@ -1,6 +1,10 @@
 .cards{
     height: 100%;
     width: 25%;
-    background-color: black;
-    border: red solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    color: hsl(202, 6%, 25%);
+    
 }

@@ -4,4 +4,17 @@
     background-color: #EFF4FA;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.discoverStart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.reposArea{
+    height: 65%;
 }
